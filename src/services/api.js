@@ -19,18 +19,3 @@ api.addResponseTransform((response) => {
 });
 
 export default api;
-
-/* exemplo de chamada get
-
-	componentDidMount = async () => {
-		try {
-			const response = await api.get('products');
-			const products = '' + response.data[0]['name'];
-			this.setState({ products });
-		} catch (error) {
-			const errorMessage = 'Erro na Conexão';
-			this.setState({ errorMessage });
-		}
-	};
-
-*/
